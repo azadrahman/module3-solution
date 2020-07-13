@@ -62,6 +62,9 @@ h2{
 	#list{
 		display: none;
 	}
+	.navbar-toggler{
+		visibility: hidden;
+	}
 	
 }
 @media (max-width: 767px){
