@@ -16,7 +16,7 @@ body{
 #list{
 	background: #f6b319;
 	color: black;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 900;
 	text-align: center;
 }
@@ -53,8 +53,23 @@ h2{
 	overflow: scroll;
 
 }
+#text-div p{
+	padding: 5px;
+	font-size: 16px;
+	word-spacing: 1px;
+}
 @media (min-width: 992px){
 	#list{
 		display: none;
 	}
+}
+@media (max-width: 767px){
+	#text-div p{
+	font-size: 16px;
+	word-spacing: 1px;
+}
+   #list a{
+   	font-size: 18px;
+   }
+
 }
